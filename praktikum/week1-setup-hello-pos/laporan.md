@@ -1,25 +1,28 @@
-# Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
-Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
+# Laporan Praktikum Minggu 1
+Topik: Pengenalan Paradigma Prosedural, OOP, dan Fungsional
 
 ## Identitas
-- Nama  : [Nama Mahasiswa]
-- NIM   : [NIM Mahasiswa]
-- Kelas : [Kelas]
+- Nama  : Difa Rizkiana Fauziyah
+- NIM   : 240320564
+- Kelas : 3DSRA
 
 ---
 
-## Tujuan
-(Tuliskan tujuan praktikum minggu ini.  
-Contoh: *Mahasiswa memahami konsep class dan object serta dapat membuat class Produk dengan enkapsulasi.*)
+## Tujuan 
+- Mampu mendefinisikan paradigma prosedural, OOP, dan fungsional.
+- Mampu membandingkan kelebihan dan keterbatasan dari masing-masing paradigma.
+- Mampu memberikan contoh program sederhana untuk tiap paradigma.
+- Aktif berpartisipasi dalam diskusi kelas dengan bertanya, menjawab, dan memberikan opini.
 
 ---
 
 ## Dasar Teori
-(Tuliskan ringkasan teori singkat (3–5 poin) yang mendasari praktikum.  
-Contoh:  
-1. Class adalah blueprint dari objek.  
-2. Object adalah instansiasi dari class.  
-3. Enkapsulasi digunakan untuk menyembunyikan data.)
+Paradigma pemrograman merupakan cara pandang atau pendekatan dalam menyusun program agar lebih terstruktur.  
+1. Prosedural: pendekatan pemrograman yang membangun program dengan rangkaian perintah atau fungsi/prosedur yang dijalankan secara berurutan.
+2. OOP (Object-Oriented Programming): pendekatan pemrograman yang membangun program berdasarkan konsep objek, yang mana memiliki data (atribut) dan perilaku (method).
+3. Fungsional: pendekatan pemrograman yang memandang program sebagai kumpulan fungsi matematika, menekankan pada ekspresi dan transformasi data.
+
+Dalam konteks Agri-POS, paradigma OOP membantu memodelkan entitas  nyata seperti Produk, Transaksi, dan Pembayaran sebagai Objek. Dengan demikian, sistem lebih mudah dikembangkan dan dipelihara.
 
 ---
 
