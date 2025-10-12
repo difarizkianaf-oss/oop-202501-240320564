@@ -27,7 +27,7 @@ Dalam konteks Agri-POS, paradigma OOP membantu memodelkan entitas  nyata seperti
 ---
 
 ## Langkah Praktikum
-(Tuliskan Langkah-langkah dalam prakrikum, contoh:
+Langkah-langkah dalam prakrikum:
 1. Setup Project
    -   Install JDK (Java Development Kit), IDE (seperti IntelliJ IDEA, VS Code, atau NetBeans), Git, PostgreSQL, dan JavaFX di komputer.
    -   Buat folder project dengan nama oop-pos-nim.
@@ -44,12 +44,27 @@ Dalam konteks Agri-POS, paradigma OOP membantu memodelkan entitas  nyata seperti
 ---
 
 ## Kode Program
-(Tuliskan kode utama yang dibuat, contoh:  
+1. Paradigma Prosedural  
 
 ```java
-// Contoh
-Produk p1 = new Produk("BNH-001", "Benih Padi", 25000, 100);
-System.out.println(p1.getNama());
+//HelloProsedural.java
+public class HelloProsedural {
+   public static void main(String[] args) {
+      String nama = "Difa Rizkiana Fauziyah";
+      String nim = "240320564";
+      String[] produk = {"Jagung", "Pestisida", "Bibit Cabai"};
+      int[] harga = {9000, 20000, 12000};
+      int total = 0;
+      System.out.println("Hello World, I am " + nama + "-" + nim);
+      System.out.println("Program Agri-POS World");
+      System.out.println("Daftar Produk:");
+      for (int i = 0; i < produk.length; i++) {
+         System.out.println("- " + produk[i] + ": Rp" + harga[i]);
+         total += harga[i];
+      }
+      System.out.println("Total harga semua produk: Rp" + total);
+   }
+}
 ```
 )
 ---
