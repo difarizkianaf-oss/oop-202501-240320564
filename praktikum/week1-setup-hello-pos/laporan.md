@@ -28,9 +28,18 @@ Dalam konteks Agri-POS, paradigma OOP membantu memodelkan entitas  nyata seperti
 
 ## Langkah Praktikum
 (Tuliskan Langkah-langkah dalam prakrikum, contoh:
-1. Langkah-langkah yang dilakukan (setup, coding, run).  
-2. File/kode yang dibuat.  
-3. Commit message yang digunakan.)
+1. Setup Project
+   -   Install JDK (Java Development Kit), IDE (seperti IntelliJ IDEA, VS Code, atau NetBeans), Git, PostgreSQL, dan JavaFX di komputer.
+   -   Buat folder project dengan nama oop-pos-<nim>.
+   -   Inisialisasi repositori Git.
+   -   Buat struktur awal src/main/java/com/upb/agripos/.
+   -   Jalankan program Java sederhana untuk menguji apakah semua tools berjalan.
+2. Program Sederhana dalam Tiga Paradigma
+   - Prosedural: program untuk menghitung total harga produk.
+   - OOP: class Produk dengan atribut nama dan harga, dengan minimal tiga objek dan hitung total.
+   - Fungsional: gunakan Stream atau lambda untuk menghitung total harga dari tiga objek.
+3. Commit dan Push
+   - commit dengan pesan: week1-setup-hello-pos.
 
 ---
 
