@@ -142,14 +142,14 @@ Dalam praktikum ini, saya menjalankan tiga paradigma pemrograman yang berbeda, y
    - Fungsional: program ini memanfaatkan ```stream``` dan ```lambda``` di java. Di mana data produk dan harga disimpan dalam ```list``` dan untuk menampilkannya digunakan ```IntStream.range()```. Total harga produk dihitung menggunakan operasi stream ```mapToInt()``` dan ```sum()```. Pendekatan ini mengutamakan fungsi tanpa mengubah data aslinya.
 2. Kelebihan dan keterbatasan Tiap Pendekatan
    - Prosedural:
-     - kelebihan: mudah dipahami untuk program sederhana, alur jelas dan berurutan.
-     - kekurangan: sulit dikembangkan untuk program yang kompleks.
+     - kelebihan: mudah dipahami untuk program sederhana, struktur kode yang jelas dengan langkah berurutan, serta memudahkan pemeliharaan program skala kecil.
+     - kekurangan: sulit dikembangkan untuk program yang kompleks, kurang fleksibel dan maintainance menjadi lebih sulit karena perubahan harus dilakukan pada banyak bagian program.
    - OOP:
      - kelebihan: kode lebih terstruktur karena data dan fungsinya dikumpulkan dalam objek, serta lebih mudah dikembangkan untuk program besar.
-     - kekurangan: membutuhkan pemahaman tambahan mengenai konsep class dan objek.
+     - kekurangan: membutuhkan pemahaman tambahan mengenai konsep class dan objek, adanya kemungkinan kesulitan mengelola kode apabila tidak diterapkan dengan baik, serta membutuhkan sumber daya lebih banyak.
    - Fungsional:
-     - kelebihan: kode lebih ringkas dan mengurangi kemungkinan kesalahan data karena data tidak diubah secara langsung.
-     - kekurangan: perlu mempelajari penggunaan stream dan lambda.
+     - kelebihan: kode lebih ringkas, mudah diuji dan mengurangi kemungkinan kesalahan data karena data tidak diubah secara langsung, efisien untuk aplikasi yang membutuhkan data kompleks dan pemrosesan paralel.
+     - kekurangan: perlu mempelajari dengan baik penggunaan stream dan lambda, kurang efisien untuk aplikasi kompleks dalam konteks penerapan nyata di kehidupan sehari-hari.
        
 3. Kendala yang Dihadapi
 
@@ -164,18 +164,21 @@ Praktikum menggu pertama ini membahas tiga paradigma pemrograman: prosedural, OO
 
 ## Quiz
 1. Apakah OOP selalu lebih baik dari prosedural?  
-   **Jawaban:** …  
+
+   **Jawaban:** OOP tidak selalu lebih baik daripada prosedural, karena masing-masing paradigma memiliki kelebihan dan kekurangan yang disesuaikan dengan penggunaannya. OOP lebih baik untuk project besar, kompleks, dan yang membutuhkan pengelolaan kode yang terstruktur. Sedangkan prosedural lebih efisien dan sederhana untuk project kecil atau yang terstruktur secara berurutan.
 
 2. Kapan functional programming lebih cocok digunakan dibanding OOP atau prosedural?  
-   **Jawaban:** …  
+
+   **Jawaban:** Functional programming lebih cocok digunakan ketika program membutuhkan pengolahan data yang besar, serta aplikasi yang berfokus pada transformasi data dan logika matematis yang kompleks. Hal ini karena fungsi-fungsi yang memudahkan pengujian, pengelolaan state, dan pemrograman paralel.   
 
 3. Bagaimana paradigma (prosedural, OOP, fungsional) memengaruhi maintainability dan scalability aplikasi?  
-   **Jawaban:** …  )
+
+   **Jawaban:** Paradigma pemrograman sangat memengaruhi maintainability dan scalability aplikasi. Pada prosedural, maintainability terkadang lebih rendah unntuk aplikasi besar karena kode cenderung berurutan sehingga sulit dikelola dan dikembangkan. Sementara itu, paradigma OOP meningkatkan maintainability dengan kode yang lebih terstruktur, di mana perubahan pada suatu bagian tidak memengaruhi bagian lain, begitu pun dengan scalability-nya. Paradigma fungsional juga mendukung maintainability dengan baik karena meminimalkan efek samping dan sangat scalable untuk aplikasi yang memerlukan pemrosesan data paralel dan besar. Dapat disimpulkan, OOP dan fungsional lebih mendukung maintainability dan scalability terutama untuk aplikasi yang kompleks dan besar dibanding dengan paradigma prosedural.
 
 4. Mengapa OOP lebih cocok untuk mengembangkan aplikasi POS dibanding prosedural?
 
-   **Jawaban**:
+   **Jawaban**: OOP lebih cocok dikembangkan untuk aplikasi POS dibanding prosedural karena OOPmengelompokkan data dan fungsi ke dalam objek dan kelas, yang sesuai dengan penerepan nyata dalam POS. OOP juga memudahkan pemeliharaan dan pengembangan tanpa memengaruhi bagian lain dari aplikasi. Hal ini sangat penting untuk aplikasi POS yang umumnya kompleks dan terus berkembang seiring berjalannya kebutuhan. Sedangkan apabila menggunakan prosedural akan lebih sulit untuk mengelola aplikasi besar seperti POS karena pemrograman prosedural lebih berfokus pada urutan.
 
-6. Bagaimana paradigma fungsional dapat membantu mengurangi kode berulang (boilerplate code)?
+5. Bagaimana paradigma fungsional dapat membantu mengurangi kode berulang (boilerplate code)?
 
-   **Jawaban**:
+   **Jawaban**: Paradigma fungsional membantu mengurangi kode berulang dengan cara membuat fungsi yang ringkas dan bisa dipakai ulang berkali-kali. Di mana satu fungsi dapat digunakan kembali dalam berbagai konteks tanpa perlu menulis ulang logika yang sama. Hal ini membuat kode lebih efesien dan mudah dipelihara karena menghindari pengulangan kode serupa.
