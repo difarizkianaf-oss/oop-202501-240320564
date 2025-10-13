@@ -1,5 +1,5 @@
 # Laporan Praktikum Minggu 2
-Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
+Topik: Class dan Object
 
 ## Identitas
 - Nama  : Difa Rizkiana Fauziyah
@@ -9,8 +9,11 @@ Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
 ---
 
 ## Tujuan
-(Tuliskan tujuan praktikum minggu ini.  
-Contoh: *Mahasiswa memahami konsep class dan object serta dapat membuat class Produk dengan enkapsulasi.*)
+- Mampu menjelaskan konsep class, object, atribut, dan method dalam OOP.
+- Mampu menerapkan access modifier dan enkapitulasi dalam pembuatan class.
+- Mampu mengimplementasikan class produk pertanian dengan atribut dan method yang sesuai.
+- Mampu mendemonstrasikan instansiasi object serta menampilkan data produk pertanian di console.
+- Mampu menyusun laporan praktikum dengan bukti kode, hasil eksekusi, dan analisis sederhana.
 
 ---
 
