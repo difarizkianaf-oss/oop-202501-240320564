@@ -47,7 +47,7 @@ Langkah-langkah dalam prakrikum:
 
 ## Kode Program
 1. Produk.java 
-```
+```java
 package model;
 
 public class Produk {
@@ -96,7 +96,7 @@ public class Produk {
 ```
 
 2. CreditBy.java
-```
+```java
 package util;
 
 public class CreditBy {
@@ -107,8 +107,8 @@ public class CreditBy {
 ```
 
 3. MainProduk.java
-```
-// mainproduk.java
+```java
+//MainProduk.java
 
 import model.Produk;
 import util.CreditBy;
@@ -145,25 +145,32 @@ https://github.com/difarizkianaf-oss/oop-202501-240320564/tree/b21870fee37fae2da
 ---
 
 ## Analisis
-(
-- Jelaskan bagaimana kode berjalan.  
-- Apa perbedaan pendekatan minggu ini dibanding minggu sebelumnya.  
-- Kendala yang dihadapi dan cara mengatasinya.  
-)
+1. Cara Kerja Kode
+   
+   Program ini terdiri dari tiga kode program yang saling mendukung, yaitu ```Produk```, ```CreditBy```, dan ```MainProduk```. Di mana Produk disimpan dalam package ```model``` dan berfungsi sebagai representasi data barang yang memiliki atribut kode, nama, harga, dan stok. Atribut tersbut bersifat private untuk menjaga keamanan data dari objek luar dan menggunakan getter dan setter untuk mengaksesnya. Class ini juga digunakan untuk memperbarui stok setiap produk.
+   Adapun kode CreditBy yang disimpan dalam package ```util```  digunakan untuk menampung fungsi pendukung dalam program, yang mana dalam hal ini adalah untuk mencetak informasi berupa nama dan nim dari mahasiswa. Metode ini bersifat static sehingga dapat dipanggil tanpa perlu membuat objek terlebih dahulu.
+   Selanjutnya kode MainProduk berperan sebagai kode utama dari program ini dengan mengimpor kelas dari package lain yakni ```model.Produk``` dan ```util.CreditBy```. Import bertujuan agar program MainProduk dapat mengakses class lain tanpa harus menulis atau membuat ulang kodenya. Pada kode ini dibuatlah beberapa objek produk beserta pembaruannya yang kemudian ditampilkan menggunakan metode getter dan ditutup dengan menampilkan identitas mahasiswa tadi.
+   
+2. Perbedaan dengan Praktikum Sebelumnya
+   
+   Praktikum kali ini berbeda dengan praktikum sebelumnya yang membahas tiga paradigma pemrograman. Jika praktikum minggu lalu masih membahas perbandingan teori atau konsep antar paradigma, di praktikum kali ini sudah mulai berfokus pada penerapan program OOP yang lebih terstruktur dengan menggunakan class, objek, dan beberapa metode.
+   
+3. Kendala yang Dihadapi
+
+   Kendala utama yang muncul adalah adanya kesalahan atau error terjadi dalam mengatur package dan bagaimana mengimpor class dari package lain. Selain itu, adanya kesalahan dalam proses running juga cukup menjadi kendala. Setelah dilalukan penelusuran, akhirnya program bisa dijalankan dan berhasil menampilkan output.
 ---
 
 ## Kesimpulan
-(Tuliskan kesimpulan dari praktikum minggu ini.  
-Contoh: *Dengan menggunakan class dan object, program menjadi lebih terstruktur dan mudah dikembangkan.*)
+Dengan menggunakan class dan object, program menjadi lebih terstruktur serta mudah dikembangkan untuk kebutuhan yang lebih kompleks. Praktikum ini menunjukkan bahwa penerapan enkapsulasi mampu membuat program lebih rapi dan terorganisir. Selain itu, proses pengelolaan data seperti perubahan stok produk pun menjadi lebih efisien dan mudah diatur.
 
 ---
 
 ## Quiz
 1. Mengapa atribut sebaiknya dideklarasikan sebagai private dalam class?  
-   **Jawaban:** …  
+   **Jawaban:** Atribut sebaiknya dideklarasikan sebagai private agar data dalam kelas terlindungi dari akses dan perubahan langsung oleh objek luar. Dengan cara ini, prinsip enkapitulasi dapat diterapkan di mana data hanya dapat diakses melalui metode getter dan setter. Hal tersebut membantu menjaga keamanan dan konsistensi data dalam program.   
 
 2. Apa fungsi getter dan setter dalam enkapsulasi?  
-   **Jawaban:** …  
+   **Jawaban:** Fungsi dari getter dan setter yaitu untuk memberikan akses yang aman terhadap atribut yang bersifat private. Getter digunakan untuk mengambil nilai atribut, sedangkan setter digunakan untuk mengubah nilainya dengan kontrol dan validasi tertentu. Sehingga keduanya menjaga integritas serta konsistensi data dalam penerapan prinsip enkapitulasi.
 
 3. Bagaimana cara class ```Produk``` mendukung pengembangan aplikasi POS yang lebih kompleks?  
-   **Jawaban:** …  )
+   **Jawaban:** Class produk membantu mendefinisikan data barang dalam sistem aplikasi POS, di mana class produk menyimpan informasi mengenai kode, nama, harga, hingga stok dari produk. Dengan menerapakan class, setiap produk dapat dibuat, dikelola, dan dimanipulasi secara lebih terstruktur. Hal ini juga mendukung kemudahan dalam pengembangan aplikasi kedepannya, seperti pengelolaan transaksi hingga pembaruan stok.
