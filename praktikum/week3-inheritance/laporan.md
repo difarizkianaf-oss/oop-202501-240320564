@@ -9,25 +9,37 @@ Topik: Inheritance
 ---
 
 ## Tujuan
-(Tuliskan tujuan praktikum minggu ini.  
-Contoh: *Mahasiswa memahami konsep class dan object serta dapat membuat class Produk dengan enkapsulasi.*)
+- Mampu menjelaskan konsep inheritance (pewarisan class) dalam OOP.
+- Mampu membuat superclass dan subclass untuk produk pertanian.
+- Mampu mendemonstrasikan hierarki class melalui contoh kode.
+- Mampu menggunakan ```super``` untuk memanggil konstruktor dan method parent class.
+- Mampu membuat laporan praktikum yang menjelaskan perbedaan penggunaan inheritance dibanding class tunggal.
 
 ---
 
 ## Dasar Teori
-(Tuliskan ringkasan teori singkat (3–5 poin) yang mendasari praktikum.  
-Contoh:  
-1. Class adalah blueprint dari objek.  
-2. Object adalah instansiasi dari class.  
-3. Enkapsulasi digunakan untuk menyembunyikan data.)
+Inheritance adalah mekanisme dalam OOP yang memungkinkan suatu class mewarisi atribut dan method dari class lain.
+- Superclass: class induk yang mendefinisikan atribut umum.
+- Subclass: class turunan yang mewarisi atribut/method superclass, dan dapat menambahkan atribut/method baru.
+- ```Super``` digunakan untuk memanggil konstruktor atau method superclass.
+Dalam konteks Agri-POS, kita dapat membuat class ```Produk``` sebagai superclass, kemudian ```Benih```, ```Pupuk```, dan ```AlatPertanian``` sebagai subclass. Hal ini membuat kode lebih reusable dan terstruktur.
 
 ---
 
 ## Langkah Praktikum
-(Tuliskan Langkah-langkah dalam prakrikum, contoh:
-1. Langkah-langkah yang dilakukan (setup, coding, run).  
-2. File/kode yang dibuat.  
-3. Commit message yang digunakan.)
+1. Membuat Superclass Produk
+   - Gunakan class ```Produk``` dari Bab 2 sebagai superclass.
+2. Membuat Subclass
+   - ```Benih.java``` > atribut tambahan: varietas.
+   - ```Pupuk.java``` > atribut tambahan: jens pupuk (Urea, NPK, dll).
+   - ```AlatPertanian.java``` > atribut tambahan: material (baja, kayu, plastik).
+3. Membuat Main Class
+   - Instansiasi minimal satu objek dari tiap subclass.
+   - Tampilkan data produk dengan memanfaatkan inheritance.
+4. Menambahkan CreditBy
+   - Panggil class ```CreditBy``` untuk menampilkan identitas mahasiswa.
+5. Commit dan Push
+   - Commit dengan pesan: ```week3-inheritance```
 
 ---
 
@@ -63,11 +75,11 @@ Contoh: *Dengan menggunakan class dan object, program menjadi lebih terstruktur 
 ---
 
 ## Quiz
-(1. [Tuliskan kembali pertanyaan 1 dari panduan]  
+1. Apa keuntungan menggunakan inheritance dibanding membuat class terpisah tanpa hubungan?  
    **Jawaban:** …  
 
-2. [Tuliskan kembali pertanyaan 2 dari panduan]  
+2. Bagaimana cara subclass memanggil konstruktor superclass?   
    **Jawaban:** …  
 
-3. [Tuliskan kembali pertanyaan 3 dari panduan]  
+3. Berikan contoh kasus di POS pertanian selain Benih, Pupuk, dan Alat pertanian yang bisa dijadikan subclass!
    **Jawaban:** …  )
