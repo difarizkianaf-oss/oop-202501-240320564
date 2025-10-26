@@ -1,3 +1,5 @@
+//superclass produk
+
 package com.upb.agripos.model;
 
 public class Produk {

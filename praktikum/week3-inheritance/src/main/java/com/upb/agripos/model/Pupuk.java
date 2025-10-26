@@ -1,3 +1,5 @@
+//subclass pupuk
+
 package com.upb.agripos.model;
 
 public class Pupuk extends Produk {
@@ -10,4 +12,9 @@ public class Pupuk extends Produk {
 
     public String getJenis() { return jenis; }
     public void setJenis(String jenis) { this.jenis = jenis; }
+
+    //method tambahan
+    public void deskripsi() {
+        System.out.println("Pupuk jenis " + jenis + " direkomendasikan untuk tanaman padi dan jagung");
+    }
 }
