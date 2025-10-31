@@ -18,9 +18,10 @@ Topik: Polymorphism (Info Produk)
 
 ## Dasar Teori
 Polymorphism berarti "banyak bentuk" dan memungkinkan objek yang berbeda merespons panggilan method yang sama dengan cara yang berbeda.
-    1. Overloading : mendefinisikan method dengan nama sama tetapi parameter berbeda.  
-    2. Overriding : subclass mengganti implementasi method dari superclass. 
-    3. Dynamic binding : pemanggilan method ditentukan saat runtime, bukan compile time.
+1. Overloading : mendefinisikan method dengan nama sama tetapi parameter berbeda.  
+2. Overriding : subclass mengganti implementasi method dari superclass. 
+3. Dynamic binding : pemanggilan method ditentukan saat runtime, bukan compile time.
+
 Dalam konteks Agri-POS, misalnya:
 - Method ```getInfo()``` pada ```Produk``` dioverride oleh ```Benih```, ```Pupuk```, ```AlatPertanian``` untuk menampilkan detail spesifik.
 - Method ```tambahStok()``` bisa dibuat overload dengan parameter berbeda (int, double).
@@ -194,7 +195,9 @@ public class CreditBy {
 1. Cara Kerja Kode
 
     Program ini merupakan penerapan dari konsep polymorphism dengan ```Produk``` sebagai class induk bagi semua jenis produk dalam Agri-POS. Superclass ini memiliki atribut seperti ```kode```, ```nama```, ```harga```, dan ```stok``` yang memuat identitas setiap produk. Selain itu, class ```Produk``` juga memiliki method ```tambahStok()``` yang di-overload agar dapat menerima parameter dengan tipe data berbeda, baik int maupun double. Method ini digunakan untuk menambah jumlah stok produk sesuai kebutuhan. Kemudian terdapat method ```getInfo()``` yang mengembalikan informasi umum produk berupa nama dan kode. Method ini yang nantinya akan di-override oleh subclass untuk menampilkan informasi lebih spesifik.
+    
     Dari kelas Produk ini diturunkan beberapa subclass lain yang mewakili jenis produk berbeda, yaitu ```Benih```, ```Pupuk```, dan ```AlatPertanian```, di mana masing-masing subclass menambahkan atribut khusus. Seperti misalnya, subclass Benih menambahkan atribut ```varietas```, subclass Pupuk menambahkan atribut ```jenis```, dan atribut ```material``` ditambahkan pada subclass AlatPertanian. Subclass tersebut melakukan overriding terhadap method ```getInfo()``` dari class Produk untuk menampilkan informasi tambahan mengenai atribut khusus yang telah dibuat. Pemanggilan ```super.getInfo()``` tetap dilakukan agar informasi umum produk tetap muncul bersamaan dengan data spesifik subclass tersebut.
+    
     Bagian utama dari penerapan polymorphism terdapat pada class ```MainPolymorphism```, yang berperan sebagai pusat eksekusi program. Di dalam class ini, dibuat arrat ```Produk[]``` yang berisi objek-objek dari beberapa subclass. Meskipun seluruh elemen array menggunakan tipe Produk, setiap objek di dalamnya tetap mempertahankan perilaku spesifik masing-masing. Proses ini menjadi inti dari mekanisme dynamic binding. Ketika dilakukan pemanggilan method getInfo() melalui looping for-each, Java akan akan memanggil versi method yang sesuai dengan tipe objek sebenarnya pada saat program dijalankan. Bagian akhir dari program memanggil ```CreditBy.print()``` untuk menampilkan identitas dari mahasiswa.
     
 2. Perbedaan dengan Praktikum Sebelumnya
