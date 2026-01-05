@@ -110,10 +110,10 @@ public class MainCartMap {
 
 ## Hasil Eksekusi
 1. Output MainCart
-![Output_MainCart](Output_MainCart.png)
+![Output_MainCart](screenshots/Output_MainCart.png)
 
 2. Output MainCartMap
-![Output_MainCartMap](Output_MainCartMap.png)
+![Output_MainCartMap](screenshots/Output_MainCartMap.png)
 ---
 
 ## Analisis
