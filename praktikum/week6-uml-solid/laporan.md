@@ -38,7 +38,7 @@ Setiap iterasi lakukan commit incremental dengan pesan: week6-uml-solid: iterasi
 ## Penjelasan Setiap Diagram
 1. Usecase Diagram
 
-![uml_usecase](uml_usecase.png)
+![uml_usecase](docs/uml_usecase.png)
 
 Fungsi: Menggambarkan interaksi antara aktor dengan sistem Agri-POS, menunjukkan fungsionalitas yang dapat diakses oleh setiap aktor.
 
@@ -52,7 +52,7 @@ Keterkaitan: Use Case Diagram menjadi dasar untuk menentukan class-class yang di
 
 2. Activity Diagram
 
-![uml_activity](uml_activity.png)
+![uml_activity](docs/uml_activity.png)
 
 Fungsi: Menggambarkan alur proses checkout dari scan produk hingga cetak struk dalam bentuk flowchart dengan decision points.
 
@@ -62,7 +62,7 @@ Keterkaitan: Activity Diagram mendetailkan use case "Checkout" dan menjadi acuan
 
 3. Sequence Diagram
 
-![uml_sequence](uml_sequence.png)
+![uml_sequence](docs/uml_sequence.png)
 
 Fungsi: Menunjukkan interaksi antar objek dalam proses checkout secara berurutan dengan message passing, menggunakan Factory Pattern untuk implementasi OCP.
 
@@ -72,7 +72,7 @@ Keterkaitan: Sequence Diagram mengimplementasikan Activity Diagram dan menggunak
 
 4. Class Diagram
 
-![uml_class](uml_class.png)
+![uml_class](docs/uml_class.png)
 
 Fungsi: Menggambarkan struktur statis sistem meliputi class, atribut, method, dan relasi antar class dengan implementasi SOLID principles.
 
