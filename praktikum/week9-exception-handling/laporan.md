@@ -115,9 +115,7 @@ public class MainExceptionDemo {
 ---
 
 ## Hasil Eksekusi
-(Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/hasil.png)
-)
+![Output_ExceptionDemo](screenshots/Output_ExceptionDemo.png)
 ---
 
 ## Analisis
