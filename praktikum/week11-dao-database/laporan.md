@@ -121,10 +121,10 @@ public class MainDAOTest {
 ```
 ---
 
-## Hasil Eksekusi
-(Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/hasil.png)
-)
+## Hasil Eksekusi 
+![Screenshot hasil](screenshots/Output_MainDAOTest.png)
+![Screenshot hasil](screenshots/Test%20Build.png)
+
 ---
 
 ## Analisis
