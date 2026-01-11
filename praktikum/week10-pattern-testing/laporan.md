@@ -126,9 +126,8 @@ public class ProductTest {
 ---
 
 ## Hasil Eksekusi
-(Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/hasil.png)
-)
+![Screenshot hasil](screenshots/Output_AppMVC.png)
+![Screenshot hasil](screenshots/Output_ProductTest.png)
 ---
 
 ## Analisis
