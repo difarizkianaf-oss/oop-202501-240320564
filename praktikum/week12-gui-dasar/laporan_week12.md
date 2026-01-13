@@ -106,9 +106,7 @@ public class AppJavaFX extends Application {
 ---
 
 ## Hasil Eksekusi
-(Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/hasil.png)
-)
+![Output_GUI_Dasar](screenshots/Output_GUI_Dasar.png)
 ---
 
 ## Analisis
