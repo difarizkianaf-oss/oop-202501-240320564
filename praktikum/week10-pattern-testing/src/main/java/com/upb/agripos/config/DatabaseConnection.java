@@ -20,6 +20,6 @@ public class DatabaseConnection {
     }
 
     public void connect() {
-        System.err.println("Connecting to database : " + connectionString);
+        System.err.println("Connecting to database");
     }
 }
