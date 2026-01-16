@@ -126,7 +126,7 @@ public class ProductTest {
 ---
 
 ## Hasil Eksekusi
-![Screenshot hasil](screenshots/AppMVC.png.png)
+![Screenshot hasil](screenshots/AppMVC.png)
 ![Screenshot hasil](screenshots/JUnit_test.png)
 ---
 
